@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao&display=swap');
+
+body {
+  color: #fff;
+  background-color: #126546;
+  font-family: 'Lato';
+}
+
+.block {
+  border-top: 2px solid #fff;
+  width: 400px;
+  float: left;
+  width: 33%;
+}
+
+.rodape {
+  clear: both;
+}
+
+.rodape a {
+  color: #fff;
+}
+
+.rodape a:hover {
+  color: yellow;
+}
+
+.space-marginLeft-10 {
+  margin: 30px;
+}

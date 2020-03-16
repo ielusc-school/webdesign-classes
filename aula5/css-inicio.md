@@ -17,3 +17,83 @@ Uma regra CSS é um conjunto de propriedades associados a um seletor.
 **Web Docs, Mozilla**
 
 Referência: [W3C](https://developer.mozilla.org/pt-BR/docs/Glossario/CSS)
+
+> Seletores
+
+Estilos inline  
+Folha de estilos interna
+Folha de estilos externa
+
+div a
+div p, div h1
+* 
+#id 
+.class
+
+pseudo-class
+a:hover
+a:visited
+div + p
+ul li:nth-child(1) {
+  color: red;
+}
+
+### Propriedades de Texto
+text-ident
+white-space
+word-spacing
+letter-spacing
+
+## Propriedades de Lista
+list-style-type
+list-style-position
+list-style-image
+list-style: none
+
+
+### Cores
+
+
+> Hex
+Hexadecimal =  16 números que vão de A - F
+
+ff = R
+ff = g
+ff = b
+
+#ffffff =  RGB
+
+> RGBa
+
+> HSB
+
+
+# BOX-MODEL
+
+css
+
+.container {
+width:800px
+heigth; 500px
+margin: 0 auto;
+} 
+
+
+.box1 {
+  width:200px
+  heigth; 80px
+  margin: 0 auto;
+  background: #ccc;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+float
+clear
+overflow
+
+position
+display
+
+
+backgrounds
