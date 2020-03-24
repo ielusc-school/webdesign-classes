@@ -1,0 +1,106 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #EEEEEE;
+}
+
+.container {
+  margin: 0 auto; /* centralizando o conteudo no browser */
+  width: 1000px; /* medida fixa */
+}
+header h1 {
+  font-size: 3em; /* medida relativa */
+  color: #333;
+  padding: 10px;
+}
+
+header h3 {
+  font-size: 1.5em;
+  color: #333;
+  padding: 20px; /* espaçamento interno do elemento */
+}
+
+.country {
+  width: 31%; /* medida relativa */
+  height: 200px;  /* medida fixa */
+  float: left;  /* flutuando minha caixas  */
+  margin: 10px; /* espaçamento externo das divs */
+  -webkit-filter:grayscale(0%);
+}
+
+.country:hover {
+  background-color: yellow;
+  cursor: pointer; /* alterando o icone do mouse quando passar sobre a div */
+  -webkit-filter:grayscale(100%);
+  transition: 1s;
+  box-shadow: 5px 10px #ffc68a;
+}
+
+.country p {
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 7 ;
+  font-weight: bold;
+  color: #fff; 
+  letter-spacing:2px;
+  text-shadow: 4px 4px #0a0909;
+}
+
+.clearfix {
+  clear: both; /* fazendo um reset na nossa flutuação */
+}
+
+.bg-brazil {
+  background-image: url('../images/brazil.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-china {
+  background-image: url('../images/china.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-eua {
+  background-image: url('../images/eua.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-africa {
+  background-image: url('../images/africa.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-australia {
+  background-image: url('../images/australia.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-india {
+  background-image: url('../images/india.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  margin-top: 20px;
+  height: 60px;
+  background-color: #333;
+
+}
+
+footer p {
+  line-height: 4;
+  text-align: center;
+  color: #eee;
+}
+
+
+
+
+
+
