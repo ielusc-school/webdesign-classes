@@ -1,0 +1,40 @@
+header {
+  background-color: #70a1ff;
+  width: 100%;
+  height: 80px;
+  padding-left: 20px;
+}
+
+nav {
+  line-height: 5;
+}
+
+.menu-brand {
+  float: left;
+}
+
+.menu {
+  float: right;
+  padding-right: 30px;  
+}
+
+header nav .menu  li{
+  display: inline;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ced6e0;
+}
+
+.bg-hero {
+  width: 100vw;
+  height: calc(100vh - 80px);
+  background-image: url('../image/forest.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

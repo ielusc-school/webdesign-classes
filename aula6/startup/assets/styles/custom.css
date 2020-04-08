@@ -30,8 +30,8 @@ header h3 {
 .country:hover {
   background-color: yellow;
   cursor: pointer; /* alterando o icone do mouse quando passar sobre a div */
-  -webkit-filter:grayscale(100%);
-  transition: 1s;
+  /* -webkit-filter:grayscale(100%); */
+  /* transition: 1s; */
   box-shadow: 5px 10px #ffc68a;
 }
 
