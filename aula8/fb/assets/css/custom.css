@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+
+body {
+  background-color: #EAEBEE;
+	font-family: 'Baloo Paaji 2', cursive;
+}
+
+.container {
+	margin: 0 auto;
+	width: 800px;
+}
+
+section {
+  background: #fff;
+	min-height: 30vh;
+	margin-top: 20px;
+	border: 2px solid EAEBEE;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-weight: 600;
+	font-size: .9em;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #222;
+	border-bottom: 1px solid #EAEBEE;
+}
+
+.day-birthday {
+	padding: 10px;
+	float: left;
+}
+
+.day-birthday p {
+	margin-bottom:5px;
+}
+
+.day-birthday span {
+	margin-top:20px;
+	color: #90949c;
+}
+
+.day-persons {
+	float: left;
+}
+
+.day-persons ul li {
+	display: inline;
+	margin-left:5px;
+}
+
+.day-persons ul li img {
+	border-radius: 50%;
+	width: 60px;
+	heigth: 60px;
+	padding-top: 5px;
+}
+
+.clearfix {
+	clear:both;
+}
+
+.blockDate {
+	position: relative;
+	float: left;
+	width: 175px;
+	height: 120px;
+	border-radius: 10px;
+	margin: 10px;
+	color: #fff;
+}
+
+.event-today {
+	background-color: #4267b2;	
+}
+
+.event-tomorrow {
+	background-color: #fcd872;
+}
+
+.event-week {
+	background-color: #f35369;
+}
+
+.event-otherday {
+	background-color: #bec3c9;
+}
+
+.blockDate header{
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	font-size: 1.2em;
+}
+
+.blockDate footer{
+	padding: 10px;
+	position: absolute;
+	bottom: 0
+}
+
+.line-hr {
+	display: block;
+	border-bottom: 1px solid #EAEBEE;
+	height: 1px;
+	widht: 100%;
+}
+
+.event-categories li {
+	padding-top:10px;
+	padding-left:10px;
+	color: #4267b2;
+}
+
+.event-categories li i {
+	padding-right:10px;
+	color: #222;
+}
+
+.event-categories li:nth-child(6n+0) {
+	padding-bottom: 10px;
+}

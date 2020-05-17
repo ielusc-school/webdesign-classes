@@ -1,0 +1,109 @@
+* {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+/*http://designarc.biz/demos/cake/theme/cake-html/index-3.html#*/
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --text-primary: #BFDF33;
+  --bg-default: #fff;
+  --bg-price: #2CB3B1;
+  --bg-why: #4ABEBD;
+}
+
+h1 {
+  color: var(--bg-price);
+  font-size: 2.2em;
+}
+
+h2 {
+  color: #fff;
+  font-size: 1.8em;
+}
+
+h3 {
+  color: var(--text-primary);
+  font-size: 1.6em;
+}
+
+.block-intro p {
+  color: #DBE5E6;
+}
+
+span.price {
+  color: #fff;
+  font-size: 2.5em;
+}
+span.price-month {
+  color: rgba(238, 238, 238, 0.342);
+  font-size: 1.4em;
+}
+
+.block-price p {
+  color: rgba(238, 238, 238, 0.8);
+}
+
+.block-price button {
+  background-color: var(--text-primary);
+  width: 60%;
+  height: 60px;
+  color: #fff;
+  box-shadow: 0px 4px 11px -2px black;
+  border-radius: 10px;
+  margin: 20px 0 20px 0;
+}
+
+.block-intro {
+  background-color: var(--bg-default);
+  min-height: 30vh;
+  width: 1100px;
+  padding: 30px;
+  box-shadow: 
+  0 2px 23px 0 rgba(0, 0, 0, 0.1 ),
+  0 2px 49px 0 rgba(0, 0, 0, 0.06);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.block-why ul li {
+  color: #fff;
+  list-style: none;
+  padding: 5px 0 5px 0;
+}
+
+.block {
+  width: 46.5%;
+  height: 30vh;
+  float: left;
+  padding: 20px;
+}
+
+.block-price{
+  background-color: var(--bg-price);
+  border-bottom-left-radius: 10px;
+  position: relative;
+}
+
+.block-why {
+  background-color: var(--bg-why);
+  box-shadow:
+  0 2px 23px 0 rgba(0, 0, 0, 0.1 ),
+  0 2px 49px 0 rgba(0, 0, 0, 0.06);
+  border-bottom-right-radius: 10px;
+}
+
+.wrapper {
+  margin: 80px auto;
+  width: 1200px
+}
+
+.content-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
